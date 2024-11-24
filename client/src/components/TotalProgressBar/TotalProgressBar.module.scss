@@ -1,0 +1,44 @@
+$dash: 251; /* Длина окружности (2 * π * r) */
+.progressBar {
+  position: relative;
+  width: 114px;
+  height: 113px;
+
+  & > span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-70%, -50%);
+    user-select: none;
+    background: linear-gradient(
+      144.25deg,
+      rgb(252, 88, 179),
+      rgb(254, 174, 104)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 49.5px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+}
+
+.gSvg {
+  transform: translateX(5px);
+}
+
+.circleProgress {
+  fill: none;
+  stroke-dasharray: $dash; /* Длина окружности (2 * π * r) */
+   /* Начало прогресса с верхней части на 50% */
+  animation: progress 2s ease;
+}
+@keyframes progress {
+  from {
+    stroke-dashoffset: $dash;
+  }
+}

@@ -1,0 +1,775 @@
+{
+  "totals": [
+    {
+      "id": "1",
+      "title": "Total Number Of Users",
+      "count": "1000",
+      "precent": 22.8,
+      "trend": true
+    },
+    {
+      "id": "2",
+      "title": "Total Number Of Agents",
+      "count": "5000",
+      "precent": 11.8,
+      "trend": false
+    },
+    {
+      "id": "3",
+      "title": "Total Number Of Transactions",
+      "count": "7000",
+      "precent": 11.8,
+      "trend": false
+    }
+  ],
+  "conversion-rate": [
+    {
+      "title": "iTunes Card",
+      "items": [
+        {
+          "name": "USA Physical",
+          "value": "N400.00"
+        },
+        {
+          "name": "USA E-Code card",
+          "value": "N400.00"
+        },
+        {
+          "name": "UK Physical Card",
+          "value": "N400.00"
+        },
+        {
+          "name": "UK E-Code Card",
+          "value": "N400.00"
+        }
+      ],
+      "id": "1418"
+    },
+    {
+      "title": "Amazon Card",
+      "items": [
+        {
+          "name": "USA Physical",
+          "value": "N400.00"
+        },
+        {
+          "name": "USA E-Code card",
+          "value": "N400.00"
+        },
+        {
+          "name": "UK Physical Card",
+          "value": "N400.00"
+        },
+        {
+          "name": "UK E-Code Card",
+          "value": "N400.00"
+        }
+      ],
+      "id": "4842"
+    },
+    {
+      "title": "Bitcoin",
+      "items": [
+        {
+          "name": "Bitcoin BTC",
+          "value": "N400.00"
+        },
+        {
+          "name": "Bitcoin BTC",
+          "value": "N400.00"
+        },
+        {
+          "name": "Bitcoin BTC",
+          "value": "N400.00"
+        },
+        {
+          "name": "Bitcoin BTC",
+          "value": "N400.00"
+        }
+      ],
+      "id": "45d9"
+    },
+    {
+      "title": "iTunes Cards",
+      "items": [
+        {
+          "name": "USA Physical",
+          "value": "N400.00"
+        },
+        {
+          "name": "USA E-Code card",
+          "value": "N400.00"
+        },
+        {
+          "name": "UK Physical Card",
+          "value": "N400.00"
+        },
+        {
+          "name": "UK E-Code Card",
+          "value": "N400.00"
+        }
+      ],
+      "id": "ec4e"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "status": "Active",
+      "name": "Ramon Ridwan",
+      "avatar": "/user-1.jpeg",
+      "email": "Ramonridwan@proonmail.com",
+      "block": false
+    },
+    {
+      "id": "2",
+      "status": "Down",
+      "name": "Ramon Ridwan",
+      "avatar": "/user-2.jpeg",
+      "email": "Ramonridwan@protonmail.com",
+      "block": false
+    },
+    {
+      "id": "3",
+      "status": "Active",
+      "name": "Ramon Ridwan",
+      "avatar": "/user-3.jpeg",
+      "email": "Ramonridwan@protonmail.com",
+      "block": false
+    },
+    {
+      "id": "4",
+      "status": "Pending",
+      "name": "Ramon Ridwan",
+      "avatar": "/user-4.jpeg",
+      "email": "Ramonridwan@protonmail.com",
+      "block": false
+    },
+    {
+      "id": "5",
+      "status": "Down",
+      "name": "Ramon Ridwan",
+      "avatar": "/user-5.jpeg",
+      "email": "Ramonridwan@protonmail.com",
+      "block": false
+    },
+    {
+      "id": "6",
+      "status": "Active",
+      "name": "Ramon Ridwan",
+      "avatar": "/user-6.jpeg",
+      "email": "Ramonridwan@protonmail.com",
+      "block": false
+    },
+    {
+      "id": "7",
+      "status": "Active",
+      "name": "Ramon Ridwan",
+      "avatar": "/user-7.jpeg",
+      "email": "Ramonridwan@protonmail.com",
+      "block": false
+    },
+    {
+      "id": "8",
+      "status": "Pending",
+      "name": "Ramon Ridwan",
+      "avatar": "/user-8.jpeg",
+      "email": "Ramonridwan@protonmail.com",
+      "block": false
+    },
+    {
+      "id": "9",
+      "status": "Active",
+      "name": "Ramon Ridwa",
+      "avatar": "/user-9.jpeg",
+      "email": "Ramonridwan@protonmail.com",
+      "block": false
+    },
+    {
+      "id": "10",
+      "status": "Active",
+      "name": "Fill Allen",
+      "avatar": "/user-1.jpeg",
+      "email": "Ramonridwan@protonmail.com",
+      "block": false
+    },
+    {
+      "id": "11",
+      "status": "Down",
+      "name": "Fill Allen",
+      "avatar": "/user-2.jpeg",
+      "email": "Ramonridwan@protonmail.com",
+      "block": false
+    },
+    {
+      "id": "12",
+      "status": "Active",
+      "name": "Fill Allen",
+      "avatar": "/user-3.jpeg",
+      "email": "Ramonridwan@protonmail.com",
+      "block": false
+    },
+    {
+      "id": "13",
+      "status": "Active",
+      "name": "Fill Allen",
+      "avatar": "/user-4.jpeg",
+      "email": "Ramonridwan@protonmail.com",
+      "block": false
+    },
+    {
+      "id": "14",
+      "status": "Down",
+      "name": "Fill Allen",
+      "avatar": "/user-5.jpeg",
+      "email": "Ramonridwan@protonmail.com",
+      "block": false
+    },
+    {
+      "id": "15",
+      "status": "Pending",
+      "name": "Fill Allen",
+      "avatar": "/user-6.jpeg",
+      "email": "Ramonridwan@protonmail.com",
+      "block": false
+    },
+    {
+      "id": "16",
+      "status": "Active",
+      "name": "Fill Allen",
+      "avatar": "/user-7.jpeg",
+      "email": "Ramonridwan@protonmail.com",
+      "block": false
+    },
+    {
+      "id": "17",
+      "status": "Active",
+      "name": "Fill Alle",
+      "avatar": "/user-8.jpeg",
+      "email": "Ramonridwan@protonmail.com",
+      "block": false
+    },
+    {
+      "id": "18",
+      "status": "Pending",
+      "name": "Fill Alle",
+      "avatar": "/user-9.jpeg",
+      "email": "Ramonridwan@protonmail.com",
+      "block": false
+    },
+    {
+      "id": "19",
+      "status": "Pending",
+      "name": "Fill Allen",
+      "avatar": "/user-6.jpeg",
+      "email": "Ramonridwan@protonmail.com",
+      "block": false
+    },
+    {
+      "id": "20",
+      "status": "Active",
+      "name": "Fill Allen",
+      "avatar": "/user-7.jpeg",
+      "email": "Ramonridwan@protonmail.com",
+      "block": false
+    },
+    {
+      "id": "21",
+      "status": "Active",
+      "name": "Fill Allen",
+      "avatar": "/user-8.jpeg",
+      "email": "Ramonridwan@protonmail.com",
+      "block": false
+    },
+    {
+      "id": "22",
+      "status": "Pending",
+      "name": "Fill Allen",
+      "avatar": "/user-9.jpeg",
+      "email": "Ramonridwan@protonmail.com",
+      "block": false
+    }
+  ],
+  "agents": [
+    {
+      "id": "23",
+      "status": "Active",
+      "name": "Quadri Lawal",
+      "avatar": "/agent-1.jpeg",
+      "email": "Quaderilawal@protonmail.com",
+      "block": false
+    },
+    {
+      "id": "24",
+      "status": "Active",
+      "name": "Tusweet iyanah",
+      "avatar": "/agent-2.jpeg",
+      "email": "Tusweetiyanah@protonmail.com",
+      "block": false
+    },
+    {
+      "id": "25",
+      "status": "Active",
+      "name": "Ramon Ridwan",
+      "avatar": "/agent-3.jpeg",
+      "email": "Ramonridwan@protonmail.com",
+      "block": false
+    },
+    {
+      "id": "26",
+      "status": "Active",
+      "name": "Lai Muhammed",
+      "avatar": "/agent-4.jpeg",
+      "email": "Laimuhammed@protonmail.com",
+      "block": false
+    },
+    {
+      "id": "27",
+      "status": "Active",
+      "name": "Tunde Abdul",
+      "avatar": "/agent-5.jpeg",
+      "email": "Tundeabdul@protonmail.com",
+      "block": false
+    }
+  ],
+  "users-and-agents": [
+    {
+      "id": "1",
+      "status": "Processing",
+      "name": "Quadri Lawal",
+      "avatar": "/agent-1.jpeg",
+      "email": "Quaderilawal@protonmail.com",
+      "block": false,
+      "role": "Agent"
+    },
+    {
+      "id": "2",
+      "status": "Decline",
+      "name": "Tusweet iyanah",
+      "avatar": "/user-1.jpeg",
+      "email": "Tusweetiyanah@protonmail.com",
+      "block": false,
+      "role": "User"
+    },
+    {
+      "id": "3",
+      "status": "Pending",
+      "name": "Ramon Ridwan",
+      "avatar": "/user-3.jpeg",
+      "email": "Ramonridwan@protonmail.com",
+      "block": false,
+      "role": "User"
+    },
+    {
+      "id": "4",
+      "status": "Decline",
+      "name": "Lai Muhammed",
+      "avatar": "/agent-4.jpeg",
+      "email": "Laimuhammed@protonmail.com",
+      "block": false,
+      "role": "Agent"
+    }
+  ],
+  "statistics": [
+    {
+      "id": "1",
+      "name": "Amazon",
+      "score": 40
+    },
+    {
+      "id": "2",
+      "name": "Google",
+      "score": 47
+    },
+    {
+      "id": "3",
+      "name": "iTunes",
+      "score": 20
+    },
+    {
+      "id": "4",
+      "name": "Payoneer",
+      "score": 34
+    },
+    {
+      "id": "5",
+      "name": "Bitcoin",
+      "score": 41
+    },
+    {
+      "id": "6",
+      "name": "Ethereum",
+      "score": 37
+    },
+    {
+      "id": "7",
+      "name": "Tecno",
+      "score": 25
+    },
+    {
+      "id": "8",
+      "name": "Paypal",
+      "score": 40
+    },
+    {
+      "id": "9",
+      "name": "Aliexpress",
+      "score": 48
+    },
+    {
+      "id": "10",
+      "name": "Konga",
+      "score": 49
+    },
+    {
+      "id": "11",
+      "name": "Jumia",
+      "score": 45
+    }
+  ],
+  "transactions": [
+    {
+      "id": "12345671",
+      "date": "14/01/2019",
+      "type": "coin",
+      "name": "Bitcoin",
+      "value": "$100",
+      "return": "#18000",
+      "status": "Completed"
+    },
+    {
+      "id": "12345672",
+      "date": "14/01/2019",
+      "type": "card",
+      "name": "Amazon",
+      "value": "$100",
+      "return": "#18000",
+      "status": "Failed"
+    },
+    {
+      "id": "12345673",
+      "date": "14/01/2019",
+      "type": "coin",
+      "name": "Bitcoin",
+      "value": "$100",
+      "return": "#18000",
+      "status": "In Progress"
+    },
+    {
+      "id": "12345674",
+      "date": "14/01/2019",
+      "type": "card",
+      "name": "Bitcoin",
+      "value": "$100",
+      "return": "#18000",
+      "status": "Completed"
+    }
+  ],
+  "payments": [
+    {
+      "id": "29840980",
+      "type": "User",
+      "amount": "39,000.00",
+      "date": "14/01/2019",
+      "status": "Paid",
+      "email": "Ramonridwan@protonmail.com"
+    },
+    {
+      "id": "29840981",
+      "type": "Agent",
+      "amount": "39,000.00",
+      "date": "14/01/2019",
+      "status": "Pending",
+      "email": "Ramonridwan@protonmail.com"
+    },
+    {
+      "id": "29840982",
+      "type": "Agent",
+      "amount": "39,000.00",
+      "date": "14/01/2019",
+      "status": "Processing",
+      "email": "Ramonridwan@protonmail.com"
+    },
+    {
+      "id": "29840983",
+      "type": "User",
+      "amount": "39,000.00",
+      "date": "14/01/2019",
+      "status": "Paid",
+      "email": "Ramonridwan@protonmail.com"
+    },
+    {
+      "id": "29840984",
+      "type": "Agent",
+      "amount": "39,000.00",
+      "date": "14/01/2019",
+      "status": "Paid",
+      "email": "Ramonridwan@protonmail.com"
+    },
+    {
+      "id": "29840985",
+      "type": "Agent",
+      "amount": "39,000.00",
+      "date": "14/01/2019",
+      "status": "Cancelled",
+      "email": "Ramonridwan@protonmail.com"
+    },
+    {
+      "id": "29840986",
+      "type": "User",
+      "amount": "39,000.00",
+      "date": "14/01/2019",
+      "status": "Paid",
+      "email": "Ramonridwan@protonmail.com"
+    },
+    {
+      "id": "29840987",
+      "type": "User",
+      "amount": "39,000.00",
+      "date": "14/01/2019",
+      "status": "Paid",
+      "email": "Ramonridwan@protonmail.com"
+    },
+    {
+      "id": "29840988",
+      "type": "User",
+      "amount": "39,000.00",
+      "date": "14/01/2019",
+      "status": "Processing",
+      "email": "Ramonridwan@protonmail.com"
+    },
+    {
+      "id": "29840989",
+      "type": "User",
+      "amount": "39,000.00",
+      "date": "14/01/2019",
+      "status": "Paid",
+      "email": "Ramonridwan@protonmail.com"
+    }
+  ],
+  "total-user": [
+    {
+      "id": "1",
+      "title": "Total Number Of Transactions",
+      "count": "1000",
+      "precent": 22.8,
+      "trend": true
+    },
+    {
+      "id": "2",
+      "title": "Total Amount Earned",
+      "count": "23000",
+      "precent": 22.8,
+      "trend": true
+    },
+    {
+      "id": "3",
+      "title": "Total Amount In Wallet",
+      "count": "0",
+      "precent": 22.8,
+      "trend": true
+    }
+  ],
+  "payment-user": [
+    {
+      "id": "289272301",
+      "date": "22/12/2019",
+      "product": "Amazon Giftcard",
+      "productPrice": "50",
+      "rate": "180",
+      "return": "36,000.00",
+      "amounts": "39.000.00",
+      "bank": "United Bank Africa",
+      "card": "4386",
+      "status": "Successful"
+    },
+    {
+      "id": "289272302",
+      "date": "22/12/2019",
+      "product": "Scrill Giftcard",
+      "productPrice": "130",
+      "rate": "180",
+      "return": "36,000.00",
+      "amounts": "39.000.00",
+      "bank": "United Bank Africa",
+      "card": "4386",
+      "status": "Successful"
+    },
+    {
+      "id": "289272303",
+      "date": "22/12/2019",
+      "product": "Bitcoin",
+      "productPrice": "2",
+      "rate": "180",
+      "return": "36,000.00",
+      "amounts": "39.000.00",
+      "bank": "United Bank Africa",
+      "card": "4386",
+      "status": "Decline"
+    },
+    {
+      "id": "289272304",
+      "date": "22/12/2019",
+      "product": "Steam Giftcard",
+      "productPrice": "250",
+      "rate": "180",
+      "return": "36,000.00",
+      "amounts": "39.000.00",
+      "bank": "United Bank Africa",
+      "card": "4386",
+      "status": "Successful"
+    },
+    {
+      "id": "289272305",
+      "date": "22/12/2019",
+      "product": "Google Play Card",
+      "productPrice": "134",
+      "rate": "180",
+      "return": "36,000.00",
+      "amounts": "39.000.00",
+      "bank": "United Bank Africa",
+      "card": "4386",
+      "status": "Successful"
+    },
+    {
+      "id": "289272306",
+      "date": "22/12/2019",
+      "product": "Other Giftcard",
+      "productPrice": "400",
+      "rate": "180",
+      "return": "36,000.00",
+      "amounts": "39.000.00",
+      "bank": "United Bank Africa",
+      "card": "4386",
+      "status": "Pending"
+    },
+    {
+      "id": "289272307",
+      "date": "22/12/2019",
+      "product": "Amazon Giftcard",
+      "productPrice": "19",
+      "rate": "180",
+      "return": "36,000.00",
+      "amounts": "39.000.00",
+      "bank": "Ethereum",
+      "card": "4386",
+      "status": "Successful"
+    },
+    {
+      "id": "289272308",
+      "date": "22/12/2019",
+      "product": "Bitcoin",
+      "productPrice": "26",
+      "rate": "180",
+      "return": "36,000.00",
+      "amounts": "39.000.00",
+      "bank": "United Bank Africa",
+      "card": "4386",
+      "status": "Decline"
+    }
+  ],
+  "cards": [
+    {
+      "id": "4380",
+      "name": "Card",
+      "country": "US",
+      "type": "Amazon Card",
+      "currency": "USD",
+      "image": "/card-a.jpeg"
+    },
+    {
+      "id": "4381",
+      "name": "Card",
+      "country": "CA",
+      "type": "iTunes Card",
+      "currency": "USD",
+      "image": "/card-i.jpeg"
+    },
+    {
+      "id": "4382",
+      "name": "Card",
+      "country": "UK",
+      "type": "Google Play Card",
+      "currency": "USD",
+      "image": "/card-g.jpeg"
+    },
+    {
+      "id": "4383",
+      "name": "Card",
+      "country": "US",
+      "type": "Steam Card",
+      "currency": "USD",
+      "image": "/card-s.jpeg"
+    },
+    {
+      "id": "4384",
+      "name": "Card",
+      "country": "UK",
+      "type": "Other Cards",
+      "currency": "USD",
+      "image": "/card-o.jpeg"
+    },
+    {
+      "id": "4385",
+      "name": "Card",
+      "country": "UK",
+      "type": "Steam Card",
+      "currency": "USD",
+      "image": "/card-s.jpeg"
+    },
+    {
+      "id": "4386",
+      "name": "Card",
+      "country": "US",
+      "type": "Other Cards",
+      "currency": "USD",
+      "image": "/card-o.jpeg"
+    },
+    {
+      "id": "4387",
+      "name": "Card",
+      "country": "US",
+      "type": "iTunes Card",
+      "currency": "USD",
+      "image": "/card-i.jpeg"
+    },
+    {
+      "id": "4388",
+      "name": "Card",
+      "country": "US",
+      "type": "Google Play Card",
+      "currency": "USD",
+      "image": "/card-g.jpeg"
+    },
+    {
+      "id": "4389",
+      "name": "Card",
+      "country": "CA",
+      "type": "Amazon Card",
+      "currency": "USD",
+      "image": "/card-a.jpeg"
+    },
+    {
+      "id": "4390",
+      "name": "Card",
+      "country": "CA",
+      "type": "iTunes Card",
+      "currency": "USD",
+      "image": "/card-i.jpeg"
+    }
+  ],
+  "coins": [
+    {
+      "id": "4380",
+      "name": "Bitcoin",
+      "code": "645645654757",
+      "image": "/coin-b.jpeg"
+    },
+    {
+      "id": "4381",
+      "name": "Ethereum",
+      "code": "53453464536546",
+      "image": "/coin-e.jpeg"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+<svg width="59.000000" height="59.000000" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<linearGradient x1="32.449997" y1="-9.287045" x2="24.108719" y2="95.601852" id="paint_linear_1_2640_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FD749B"/>
+			<stop offset="1.000000" stop-color="#281AC8"/>
+		</linearGradient>
+		<linearGradient x1="31.800014" y1="6.333329" x2="26.710373" y2="70.333328" id="paint_linear_1_2641_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FD749B"/>
+			<stop offset="1.000000" stop-color="#281AC8"/>
+		</linearGradient>
+		<linearGradient x1="30.900007" y1="18.166664" x2="28.355186" y2="50.166660" id="paint_linear_1_2642_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FD749B"/>
+			<stop offset="1.000000" stop-color="#281AC8"/>
+		</linearGradient>
+	</defs>
+	<g opacity="0.200000" style="mix-blend-mode:normal">
+		<path id="Oval 4" d="M29.5 59C45.79 59 59 45.79 59 29.5C59 13.2 45.79 0 29.5 0C13.2 0 0 13.2 0 29.5C0 45.79 13.2 59 29.5 59Z" fill="url(#paint_linear_1_2640_0)" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Oval 4" d="M59 29.5C59 13.2 45.79 0 29.5 0C13.2 0 0 13.2 0 29.5C0 45.79 13.2 59 29.5 59C45.79 59 59 45.79 59 29.5Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
+	<g opacity="0.200000" style="mix-blend-mode:normal">
+		<path id="Oval 5" d="M30 48C39.94 48 48 39.94 48 30C48 20.05 39.94 12 30 12C20.05 12 12 20.05 12 30C12 39.94 20.05 48 30 48Z" fill="url(#paint_linear_1_2641_0)" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Oval 5" d="M48 30C48 20.05 39.94 12 30 12C20.05 12 12 20.05 12 30C12 39.94 20.05 48 30 48C39.94 48 48 39.94 48 30Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
+	<g opacity="0.200000" style="mix-blend-mode:normal">
+		<path id="Oval 6" d="M30 39C34.97 39 39 34.97 39 30C39 25.02 34.97 21 30 21C25.02 21 21 25.02 21 30C21 34.97 25.02 39 30 39Z" fill="url(#paint_linear_1_2642_0)" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Oval 6" d="M39 30C39 25.02 34.97 21 30 21C25.02 21 21 25.02 21 30C21 34.97 25.02 39 30 39C34.97 39 39 34.97 39 30Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
+</svg>

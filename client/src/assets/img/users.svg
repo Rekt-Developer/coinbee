@@ -1,0 +1,22 @@
+<svg width="15.013672" height="15.583496" viewBox="0 0 15.0137 15.5835" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<linearGradient x1="7.914167" y1="-0.776313" x2="6.908025" y2="13.638502" id="paint_linear_1_2777_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FD749B"/>
+			<stop offset="1.000000" stop-color="#281AC8"/>
+		</linearGradient>
+		<linearGradient x1="8.200005" y1="6.981644" x2="6.220699" y2="19.426090" id="paint_linear_1_2778_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FD749B"/>
+			<stop offset="1.000000" stop-color="#281AC8"/>
+		</linearGradient>
+		<linearGradient x1="7.791343" y1="9.647558" x2="6.966633" y2="11.747559" id="paint_linear_1_2779_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FD749B"/>
+			<stop offset="1.000000" stop-color="#281AC8"/>
+		</linearGradient>
+	</defs>
+	<path id="Oval_26_" d="M11.11 4.05C11.11 2.07 9.48 0.5 7.55 0.5C5.57 0.5 4 2.07 4 4.05C4 6.04 5.57 8.6 7.55 8.6C9.48 8.6 11.11 6.04 11.11 4.05Z" stroke="url(#paint_linear_1_2777_0)" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round"/>
+	<path id="Rectangle_26_" d="M9.25 8.08L10.41 9.83C12.34 9.83 13.91 11.4 13.91 13.33L14.5 15.08L0.5 15.08L1.08 13.33C1.08 11.4 2.65 9.83 4.58 9.83L5.75 8.08" stroke="url(#paint_linear_1_2778_0)" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round" stroke-linecap="round"/>
+	<path id="Path-3_6_" d="M4.58 9.83C6.5 11.4 8.49 11.4 10.41 9.83" stroke="url(#paint_linear_1_2779_0)" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

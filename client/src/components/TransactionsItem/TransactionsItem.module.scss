@@ -1,0 +1,17 @@
+.item {
+  grid-template-columns: 1fr 160px 100px 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
+  height: 65px;
+  padding: 0 97px 0 20px;
+
+  color: var(--color-text);
+  font-size: 12px;
+}
+
+.coinDark path{
+  fill: var(--color-light);
+}
+
+.cardDark path{
+  stroke: var(--color-light);
+}

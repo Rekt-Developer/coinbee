@@ -1,0 +1,61 @@
+.main {
+  overflow-y: scroll;
+  grid-area: m;
+  height: 100vh;
+  background-color: var(--background-color-main);
+}
+
+.container {
+  max-width: 1210px;
+  padding-left: 85px;
+  padding-right: 85px;
+  margin: 0 auto;
+  padding-top: 45px;
+  padding-bottom: 120px;
+}
+
+.main-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 28px;
+
+  &__title {
+    color: var(--color-text);
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  &__wrapp {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    & p {
+      color: var(--color-text);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    & p:not(:last-child)::after {
+      content: '|';
+      padding-left: 12px;
+      color: var(--color-text);
+    }
+
+    & p:last-child {
+      display: flex;
+      align-items: first baseline;
+      gap: 6px;
+    }
+
+    & p:last-child::after {
+      content: '';
+      display: inline-flex;
+      width: 9px;
+      height: 5px;
+      color: var(--color-text);
+      background: url('../../assets/img/triangle.svg') no-repeat;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.input {
+  display: block;
+  width: 100%;
+  padding: 23px 24px;
+  border-radius: 100px;
+  border: 1px solid var(--color-border);
+  background-color: transparent;
+
+  color: var(--color-dark-light);
+  font-size: 12px;
+
+  &:focus {
+    outline: 1px solid #2684ff;
+  }
+
+  &::placeholder {
+    color: var(--color-pl);
+  }
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  row-gap: 17px;
+  width: 100%;
+
+  color: var(--color-text);
+  font-size: 14px;
+}

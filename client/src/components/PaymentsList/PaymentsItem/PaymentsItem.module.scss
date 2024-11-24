@@ -1,0 +1,16 @@
+.item {
+  grid-template-columns: 150px 130px 150px 110px 125px 1fr;
+  justify-content: space-between;
+  height: 65px;
+  padding: 0 97px 0 30px;
+
+  color: var(--color-text);
+  font-size: 12px;
+}
+
+.email {
+  overflow: hidden; 
+  white-space: nowrap; 
+  text-overflow: ellipsis; 
+  width: 140px; 
+}

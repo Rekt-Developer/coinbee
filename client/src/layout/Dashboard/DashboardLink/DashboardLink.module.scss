@@ -1,0 +1,119 @@
+.link {
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 273px;
+    background-color: transparent;
+    border: 1px solid #e156e4;
+    border-left: 1px solid transparent;
+    border-radius: 0 40px 40px 0;
+    transition: opacity .4s ease-in-out;
+    z-index: 2;
+    opacity: 0;
+  }
+
+
+  &Wrapp {
+    padding-left: 58px;
+    padding-right: 38px;
+  }
+
+  &Inner {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    padding: 20px 5px;
+    justify-content: space-between;
+    border: 1px solid transparent;
+    border-radius: 20px;
+
+    &:focus-visible {
+      outline: none;
+    }
+
+    .link:has(&:focus-visible)::after {
+      opacity: 1;
+    }
+
+    .link:has(&:hover)::after {
+      opacity: 1;
+    }
+
+    &:hover .linkText {
+      color: #848282;
+    }
+
+    &Wrapp {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+
+  &Text {
+    font-size: 12px;
+    color: var(--color-text);
+    transition: color .3s ease-in-out;
+
+    &Active {
+      font-size: 12px;
+      color: var(--color-light);
+    }
+  }
+
+  &.active {
+    background: var(--color-linear);
+    max-width: 273px;
+    border-radius: 0px 40px 40px 0px;
+    & .linkWrapp {
+      padding-right: 23px;
+    }
+
+    & .count {
+      background: var(--color-light);
+      & span {
+        background: linear-gradient(
+          184.5deg,
+          rgb(253, 116, 155),
+          rgb(40, 26, 200)
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        font-family: Poppins;
+        font-size: 8px;
+        font-weight: 700;
+      }
+    }
+
+    &::after {
+      display: none;
+    }
+
+    &::after {
+      display: none;
+    }
+  }
+}
+
+.count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 21px;
+  height: 20px;
+  background: var(--color-linear);
+  border-radius: 50%;
+
+  color: var(--color-light);
+  font-size: 8px;
+  font-weight: 700;
+}

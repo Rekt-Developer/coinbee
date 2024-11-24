@@ -1,0 +1,13 @@
+.list {
+  display: grid;
+  justify-content: center;
+  column-gap: 43px;
+  row-gap: 33px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 318px) );
+  grid-template-rows: repeat(auto-fit, 164px);
+
+  &[data-size = "sm"] {
+    grid-template-columns: 255px 255px 255px;
+    grid-template-rows: repeat(auto-fit, 132px);
+   }
+}

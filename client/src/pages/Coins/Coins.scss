@@ -1,0 +1,21 @@
+.coins-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(auto-fill, 246px);
+  column-gap: 40px;
+  row-gap: 34px;
+  padding: 47px 0;
+  padding: 64px 150px 75px 85px;
+}
+
+.cards-item-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-actions-wrapp {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

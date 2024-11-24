@@ -1,0 +1,29 @@
+<svg width="11.305664" height="18.328613" viewBox="0 0 11.3057 18.3286" fill="#fff" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<linearGradient x1="7.693539" y1="11.235069" x2="5.915760" y2="12.929955" id="paint_linear_1_2524_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FD749B"/>
+			<stop offset="1.000000" stop-color="#281AC8"/>
+		</linearGradient>
+		<linearGradient x1="10.648258" y1="9.436829" x2="12.426037" y2="11.593956" id="paint_linear_1_2525_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FD749B"/>
+			<stop offset="1.000000" stop-color="#281AC8"/>
+		</linearGradient>
+		<linearGradient x1="4.109682" y1="13.033307" x2="5.887460" y2="14.265952" id="paint_linear_1_2526_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FD749B"/>
+			<stop offset="1.000000" stop-color="#281AC8"/>
+		</linearGradient>
+		<linearGradient x1="0.839663" y1="14.232135" x2="2.617441" y2="15.156617" id="paint_linear_1_2527_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FD749B"/>
+			<stop offset="1.000000" stop-color="#281AC8"/>
+		</linearGradient>
+		<linearGradient x1="4.484187" y1="-0.637745" x2="3.460553" y2="12.234126" id="paint_linear_1_2528_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FD749B"/>
+			<stop offset="1.000000" stop-color="#281AC8"/>
+		</linearGradient>
+	</defs>
+	<path d="M7.53 17.82L7.53 5.84" stroke="url(#paint_linear_1_2524_0)" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round" stroke-linecap="round"/>
+	<path d="M10.8 17.82L10.8 2.57" stroke="url(#paint_linear_1_2525_0)" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round" stroke-linecap="round"/>
+	<path d="M4.26 17.82L4.26 9.1" stroke="url(#paint_linear_1_2526_0)" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round" stroke-linecap="round"/>
+	<path d="M0.99 17.82L0.99 11.28" stroke="url(#paint_linear_1_2527_0)" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round" stroke-linecap="round"/>
+	<path d="M0.14 7.38L7.38 0.14L8.09 0.85L0.85 8.09L0.14 7.38ZM0.85 8.06L0.85 8.09C0.65 8.29 0.34 8.29 0.14 8.09C-0.05 7.89 -0.05 7.58 0.14 7.38L0.17 7.38L0.85 8.06ZM7.38 0.17L7.38 0.14C7.58 -0.05 7.89 -0.05 8.09 0.14C8.29 0.34 8.29 0.65 8.09 0.85L8.06 0.85L7.38 0.17Z" fill="url(#paint_linear_1_2528_0)" fill-opacity="1.000000" fill-rule="evenodd"/>
+</svg>

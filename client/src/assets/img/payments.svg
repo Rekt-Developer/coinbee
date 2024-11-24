@@ -1,0 +1,27 @@
+<svg width="16.330566" height="12.038086" viewBox="0 0 16.3306 12.0381" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<linearGradient x1="8.594652" y1="-1.237488" x2="6.513895" y2="18.385895" id="paint_linear_1_2513_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FD749B"/>
+			<stop offset="1.000000" stop-color="#281AC8"/>
+		</linearGradient>
+		<linearGradient x1="3.723812" y1="6.570987" x2="1.946033" y2="5.010426" id="paint_linear_1_2514_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FD749B"/>
+			<stop offset="1.000000" stop-color="#281AC8"/>
+		</linearGradient>
+		<linearGradient x1="12.242999" y1="3.600525" x2="11.115930" y2="10.141653" id="paint_linear_1_2515_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FD749B"/>
+			<stop offset="1.000000" stop-color="#281AC8"/>
+		</linearGradient>
+		<linearGradient x1="10.035520" y1="5.861147" x2="9.948821" y2="7.638925" id="paint_linear_1_2516_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FD749B"/>
+			<stop offset="1.000000" stop-color="#281AC8"/>
+		</linearGradient>
+	</defs>
+	<path id="Rectangle-49" d="M15.21 7.85L15.21 10.31C15.21 10.98 14.66 11.53 13.99 11.53L1.72 11.53C1.05 11.53 0.5 10.98 0.5 10.31L0.5 1.72C0.5 1.05 1.05 0.5 1.72 0.5L13.99 0.5C14.66 0.5 15.21 1.05 15.21 1.72L15.21 4.17" stroke="url(#paint_linear_1_2513_0)" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round" stroke-linecap="round"/>
+	<path id="Path-154" d="M3.56 0.5L3.56 11.53" stroke="url(#paint_linear_1_2514_0)" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round" stroke-linecap="round"/>
+	<path id="Rectangle-50" d="M15.83 4.17L15.83 7.85L9.45 7.85C8.41 7.67 7.85 7.06 7.85 6.01C7.85 4.97 8.41 4.36 9.45 4.17L15.83 4.17Z" stroke="url(#paint_linear_1_2515_0)" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round"/>
+	<path id="Path-155" d="M9.69 6.01L10.31 6.01" stroke="url(#paint_linear_1_2516_0)" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

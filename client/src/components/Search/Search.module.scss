@@ -1,0 +1,67 @@
+.searhWrapp {
+  position: relative;
+  display: inline-block;
+  height: 40px;
+
+  &[data-size='lg'] .search {
+    width: 422px;
+  }
+  
+  &[data-size='md'] .search {
+    width: 353px;
+    padding: 0 58px;
+  }
+  
+  &[data-size='sm'] .search {
+    width: 216px;
+    padding: 0 56px;
+  }
+
+  &[data-variant='md'] .searchLogo {
+    left: 27px;
+  }
+  
+  &[data-size='sm'] .searchLogo {
+    left: 25px;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 100px;
+    padding: 1px;
+    background: var(--color-stroke);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: 1;
+  }
+
+  .searchLogo {
+    position: absolute;
+    top: 50%;
+    left: 34px;
+    transform: translateY(-50%);
+  }
+
+  .search {
+    position: relative;
+    z-index: 2;
+    height: 41px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 100px;
+    padding: 0 65px;
+
+    color: #858585;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 24px;
+
+    &:focus-visible {
+      outline: none;
+    }
+  }
+}

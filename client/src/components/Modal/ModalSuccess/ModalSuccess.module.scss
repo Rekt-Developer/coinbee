@@ -1,0 +1,30 @@
+@import '../../../mixins.scss';
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 90px 40px 61px;
+
+  & > h3 {
+    max-width: 227px;
+    margin-bottom: 27px;
+    @include text-linear();
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  & > p {
+    max-width: 307px;
+    margin-bottom: 35px;
+    color: var(--color-text);
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .svg {
+    margin-bottom: 37px;
+  }
+}

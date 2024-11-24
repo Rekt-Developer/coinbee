@@ -1,0 +1,19 @@
+.value {
+  color: var(--color-text);
+  font-size: 12px;
+  text-align: center;
+
+  &[data-size = "sm"] {
+    font-size: 10px;
+  }
+}
+
+.count {
+  
+  font-weight: 700;
+  
+}
+
+.name {
+  font-weight: 400;
+}

@@ -1,0 +1,12 @@
+.wrapp {
+  display: flex;
+  flex-direction: column;
+  row-gap: 17px;
+  width: 100%;
+
+  & > h4 {
+    color: var(--color-text);
+    font-size: 14px;
+    font-weight: 400;
+  }
+}

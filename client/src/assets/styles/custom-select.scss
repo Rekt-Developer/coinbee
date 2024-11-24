@@ -1,0 +1,44 @@
+.custom-select {
+
+  &__control {
+    padding: 12px 24px!important;
+    border-radius: 100px!important;
+    border: 1px solid rgb(240, 240, 240)!important;
+    background-color: transparent!important;
+  }
+
+  &__input-container {
+    color: var(--color-dark-light)!important;
+    font-size: 12px!important;
+  }
+
+  &__single-value {
+    color: var(--color-dark-light)!important;
+    font-size: 12px!important;
+  }
+
+  &__placeholder {
+    color: var(--color-pl)!important;
+    font-size: 12px!important;
+  }
+
+  &__value-container {
+    padding: 0!important;
+  }
+
+  &__indicator-separator {
+    display: none!important;
+  }
+
+  &__indicator > svg {
+    fill: var(--color-text)!important;
+    width: 13px;
+    height: 13px;
+  }
+
+  &__menu {
+    max-width: 280px!important;
+    font-size: 12px!important;
+  }
+
+}

@@ -1,0 +1,26 @@
+.wrapp {
+  display: grid;
+  grid-template-columns: 1fr 44px;
+  column-gap: 44px;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 18px;
+}
+
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &.center {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.btnWrapp {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}

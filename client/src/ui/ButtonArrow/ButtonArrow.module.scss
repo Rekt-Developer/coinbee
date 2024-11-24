@@ -1,0 +1,20 @@
+.button {
+  max-width: none;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--color-linear);
+  cursor: pointer;
+
+  &:disabled {
+    background: #aca9a9;
+    cursor: auto;
+  }
+
+  &Arrow.left {
+    transform: rotate(180deg);
+  }
+}

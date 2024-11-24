@@ -1,0 +1,19 @@
+.notificationBtn {
+  position: relative;
+  &Count {
+    position: absolute;
+    top: -3px;
+    right: -2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--color-linear);
+
+    color: var(--color-light);
+    font-size: 6px;
+    font-weight: 700;
+  }
+}

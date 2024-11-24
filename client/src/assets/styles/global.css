@@ -1,0 +1,95 @@
+#root {
+  box-sizing: border-box;
+  max-width: 1920px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 290px 1fr;
+  grid-template-rows: 83px 1fr;
+  grid-template-areas:
+    'h h h'
+    'd m m';
+}
+
+body {
+  overflow: hidden;
+}
+
+.svgColor path {
+  stroke: var(--color-light);
+}
+
+/* отдельный стиль для иконки транзакий и биткоин */
+.svgColorTransBtc path {
+  fill: var(--color-light);
+}
+
+/* отдельный стиль для иконки статистики*/
+.svgColorSt path {
+  fill: var(--color-light);
+}
+.svgColorSt path:not(:last-child) {
+  stroke: var(--color-light);
+}
+
+/* отдельный стиль для иконки агенты */
+.svgColorAg path {
+  stroke: var(--color-light);
+}
+.svgColorAg path:last-child {
+  fill: var(--color-light);
+}
+
+.main-title-wrapp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-title {
+  color: var(--color-text);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.main::-webkit-scrollbar {
+  width: 10px;
+}
+
+.main::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: darkgrey; /* Ползунок темно-серого цвета */
+  border: 2px solid white; /* С белыми границами */
+}
+
+.center {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.overview-btn-wrapp {
+  display: flex;
+  justify-content: center;
+  padding-top: 34px;
+}
+
+.section-inner {
+  background-color: var(--background-color);
+  border-radius: 10px;
+  border: 2px solid var(--color-border);
+}
+
+.text {
+  color: var(--color-text);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.item {
+  position: relative;
+  display: grid;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 100px;
+  border: 1px solid var(--color-border);
+}

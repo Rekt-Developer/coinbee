@@ -1,0 +1,21 @@
+.error {
+  color: rgb(153, 14, 14);
+  font-weight: 400;
+  font-size: 14px;
+
+  &[data-background="true"] {
+    padding: 8px 16px;
+    background-color: #c54646;
+    border: 1px solid #8b0d0d;
+    color: #fff;
+    border-radius: 12px;
+  }
+
+  &[data-color="red"] {
+    color: red;
+  }
+
+  &[data-color="pomidoro"][data-background=""] {
+    color: rgb(170, 37, 37);
+  }
+}

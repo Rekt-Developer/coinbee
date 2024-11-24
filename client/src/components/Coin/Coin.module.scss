@@ -1,0 +1,23 @@
+.card {
+  position: relative;
+  border-radius: 10px;
+
+  & img {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    max-width: 240px;
+    max-height: 246px;
+  }
+
+  .title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 48px;
+
+    color: var(--color-light);
+    font-size: 8.5px;
+    font-weight: 700;
+  }
+}

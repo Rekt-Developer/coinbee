@@ -1,0 +1,23 @@
+.header {
+  grid-area: h;
+  height: 83px;
+  background-color: var(--background-color);
+  border-bottom: 2px solid var(--color-border);
+
+  &Wrapp {
+    max-width: 1500px;
+    height: 83px;
+    padding-left: 65px;
+    padding-right: 85px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &Inner {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+}

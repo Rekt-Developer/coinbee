@@ -1,0 +1,51 @@
+.card {
+  position: relative;
+  border-radius: 10px;
+
+  & img {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    max-width: 186px;
+    max-height: 142px;
+  }
+
+  .title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+
+    color: var(--color-light);
+    font-size: 8.5px;
+    font-weight: 700;
+
+    &.gray {
+      color: #858585;
+    }
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 18px;
+    height: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 10px 0 0;
+  }
+
+  &[data-country='US']::after {
+    background-image: url('../../assets/img/us.png');
+  }
+
+  &[data-country='UK']::after {
+    background-image: url('../../assets/img/uk.png');
+  }
+
+  &[data-country='CA']::after {
+    background-image: url('../../assets/img/ca.png');
+  }
+}

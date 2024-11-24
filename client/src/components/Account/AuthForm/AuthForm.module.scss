@@ -1,0 +1,14 @@
+.wrapp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 35px;
+  width: 100%;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  row-gap: 27px;
+  width: 100%;
+}

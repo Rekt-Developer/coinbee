@@ -1,0 +1,74 @@
+.totalCard {
+  position: relative;
+  height: 100%;
+  padding: 22px 20px;
+  background-color: var(--background-color);
+  border: 2px solid var(--color-border);
+  border-radius: 10px;
+
+  &[data-size = 'sm'] {
+    padding: 5px 15px 35px 15px;
+  }
+
+  &[data-size = 'sm'] .totalInner > h3{
+    max-width: 108px;
+    font-size: 12px;
+  }
+
+  &[data-size = 'sm'] .totalInner > p::before{
+    display: none;
+  }
+
+  .totalWrapp {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+
+  .totalInner {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    & > h3 {
+      width: 131px;
+      color: var(--color-text);
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    & > p {
+      position: relative;
+      display: flex;
+      gap: 3px;
+      color: var(--color-green);
+      font-size: 12px;
+      font-weight: 400;
+
+      &::after {
+        content: '';
+        display: block;
+        width: 7px;
+        height: 4px;
+        transform: translateY(2px);
+        background: url('../../../assets/img/trendArrow.svg') no-repeat;
+      }
+
+      &.trendDown::after {
+        transform: translateY(2px) rotate(180deg);
+      }
+
+      &::before {
+        content: '';
+        position: absolute;
+        display: block;
+        top: -12px;
+        right: 5px;
+        position: absolute;
+        width: 63px;
+        height: 26px;
+        background: url('../../../assets/img/base.png') no-repeat;
+      }
+    }
+  }
+}

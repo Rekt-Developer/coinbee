@@ -1,0 +1,22 @@
+.cards-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(auto-fill, 141px);
+  column-gap: 46px;
+  row-gap: 34px;
+  padding: 47px 0;
+  padding-left: 61px;
+  padding-right: 95px;
+}
+
+.cards-item-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-actions-wrapp {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

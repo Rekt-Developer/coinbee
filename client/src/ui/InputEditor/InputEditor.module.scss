@@ -1,0 +1,26 @@
+.input {
+  display: block;
+  width: 100%;
+  padding: 6px;
+  border-radius: 10px;
+  border: 2px solid var(--color-border);
+  background-color: transparent;
+
+  color: var(--color-text);
+  font-size: 12px;
+
+  &[data-size = "lg"] {
+    padding: 34px 24px;
+    border-radius: 100px;
+    border: 1px solid var(--color-border);
+  }
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  row-gap: 17px;
+
+  color: var(--color-text);
+  font-size: 12px;
+}

@@ -1,0 +1,27 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.headerList {
+  display: grid;
+  grid-template-columns: 150px 220px 171px 50px;
+  justify-content: space-between;
+  // justify-content: space-between;
+
+  padding: 52px 21px 26px 28px;
+  color: var(--color-text);
+  font-size: 12px;
+  font-weight: 700;
+
+  & > li > h3 {
+    font-weight: 700;
+    font-size: 12px;
+  }
+
+  &.checkbox {
+    grid-template-columns: 35px 1fr 300px 1fr 50px;
+  }
+
+}

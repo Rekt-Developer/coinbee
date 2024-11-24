@@ -1,0 +1,14 @@
+.dashboard {
+  grid-area: d;
+  height: 100vh;
+  max-width: 290px;
+  padding-top: 41px;
+  border-right: 2px solid var(--color-border);
+  background-color: var(--background-color);
+
+  &Wrapp {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+  }
+}

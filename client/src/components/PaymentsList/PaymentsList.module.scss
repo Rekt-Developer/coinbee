@@ -1,0 +1,27 @@
+.headerList {
+  min-width: 926px;
+  display: grid;
+  grid-template-columns: 150px 133px 161px 121px 1fr 140px 58px;
+  padding: 52px 0 26px 28px;
+  color: var(--color-text);
+  font-size: 12px;
+  font-weight: 700;
+
+  & > li > h3 {
+    font-weight: 700;
+    font-size: 12px;
+  }
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  min-width: 926px;
+}
+
+@media (max-width: 1500px) {
+  .wrapp {
+    overflow: auto;
+  }
+}

@@ -1,0 +1,37 @@
+.status {
+  display: inline-block;
+  width: 91px;
+  height: 28px;
+  padding-top: 5px;
+  border-radius: 215px;
+
+  color: var(--color-light);
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+
+  &[data-color = "green"] {
+    background-color: #5DF888;
+  }
+
+  &[data-color = "red"] {
+    background-color: #FF4949;
+  }
+
+  &[data-color = "gray"] {
+    opacity: 0.8;
+    background-color: #C4C4C4;
+  }
+
+  &[data-color = "gradient"] {
+    background: var(--color-linear);
+  }
+
+  &[data-color = "pomidoro"] {
+    background-color: #F85D5D;
+  }
+
+  &[data-color = "red-night"] {
+    background-color: #EB3232;
+  }
+}

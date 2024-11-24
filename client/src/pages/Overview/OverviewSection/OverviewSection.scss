@@ -1,0 +1,17 @@
+.section {
+  border-radius: 10px;
+  padding: 45px 46px 30px 54px;
+  border: 2px solid var(--color-border);
+  background-color: var(--background-color);
+  min-height: 280px;
+}
+
+.section-title-wrapp {
+  position: relative;
+}
+
+.section-title {
+  color: var(--color-text);
+  font-size: 16px;
+  font-weight: 700;
+}
